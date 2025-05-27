@@ -10,17 +10,10 @@ from typing import Tuple, List, Dict
 class Was404:
     pass
 
-class Attributes(Tekky):
-    @property
-    def contact(self) -> Tuple[str, str, str]:
-        telegram = "t.me/Minor_bare" 
-	    
-        return telegram
 
     @property
     def life(self) -> Tuple[List[str], int]:
         langs = ['Russian', 'English']
-        age   = 21
 		
         return langs, age
 	
@@ -29,7 +22,7 @@ class Attributes(Tekky):
         langs = {
             'expert'      : None,
             'intermediate': ['python'],
-            'learning'    : ['c#', 'java']
+            'learning'    : ['c#', 'java', 'Rust']
         }
         specialities  = ['web/app develop', 'fullstack']
         ide           = ['vscode']
